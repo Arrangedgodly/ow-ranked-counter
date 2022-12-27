@@ -5,7 +5,7 @@
   border-radius: 15%;
   width: 30vw;
   height: 30vw;
-  margin: 0 auto;
+  margin: 2vh auto;
   justify-content: center;
   align-items: center;
   box-shadow: 10px 10px 5px black;
@@ -54,8 +54,36 @@
   border: none;
   background-color: rgba(0,0,0,0);
   cursor: pointer;
+  position: relative;
+  bottom: 2vh;
 }
 
 .Counter__reset:hover {
   color: rgb(73, 73, 73);
+}
+
+@media screen and (max-width: 1080px) {
+  .Counter {
+    width: 60vw;
+    height: 60vw;
+  }
+
+  .Counter__heading {
+    font-size: 8vw;
+    margin: 2vh auto;
+  }
+
+  .Counter__label {
+    font-size: 4.5vw;
+  }
+
+  .Counter__count {
+    width: 10vw;
+    height: 10vw;
+    font-size: 5vw;
+  }
+
+  .Counter__reset {
+    font-size: 3.5vw;
+  }
 }

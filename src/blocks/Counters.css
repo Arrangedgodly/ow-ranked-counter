@@ -5,6 +5,6 @@
 @media screen and (max-width: 1080px) {
   .Counters {
     flex-direction: column;
-    row-gap: 5vh;
+    row-gap: 1vh;
   }
 }
