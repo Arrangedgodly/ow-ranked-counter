@@ -8,6 +8,9 @@ function Counter({ title, logo }) {
     if (e.target.value < 0) {
       setWins(0);
       localStorage.setItem(`${title}-wins`, 0);
+    } else if (e.target.value >= 7) {
+      setWins(0);
+      localStorage.setItem(`${title}-wins`, 0);
     } else {
       setWins(e.target.value);
       localStorage.setItem(`${title}-wins`, e.target.value);
@@ -16,6 +19,9 @@ function Counter({ title, logo }) {
 
   const handleLosses = (e) => {
     if (e.target.value < 0) {
+      setLosses(0);
+      localStorage.setItem(`${title}-losses`, 0);
+    } else if (e.target.value >= 20) {
       setLosses(0);
       localStorage.setItem(`${title}-losses`, 0);
     } else {
