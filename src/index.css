@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('./blocks/App.css');
+@import url('./blocks/Counters.css');
+@import url('./blocks/Counter.css');

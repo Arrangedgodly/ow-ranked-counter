@@ -1,0 +1,10 @@
+.Counters {
+  display: flex;
+}
+
+@media screen and (max-width: 1080px) {
+  .Counters {
+    flex-direction: column;
+    row-gap: 5vh;
+  }
+}
