@@ -3,8 +3,8 @@
   flex-direction: column;
   background-color: rgb(163, 163, 163);
   border-radius: 15%;
-  width: 30vw;
-  height: 30vw;
+  width: 23vw;
+  height: 23vw;
   margin: 2vh auto;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,7 @@
 
 .Counter__heading {
   color: #fff;
-  font-size: 4vw;
+  font-size: 2.5vw;
   margin: 1vh auto;
   text-shadow: 2px 2px 2px black;
 }
@@ -35,7 +35,7 @@
   color: #fff;
   text-align: center;
   align-items: center;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .Counter__reset {
-  font-size: 2.5vw;
+  font-size: 1.5vw;
   width: 30%;
   border: none;
   background-color: rgba(0,0,0,0);
