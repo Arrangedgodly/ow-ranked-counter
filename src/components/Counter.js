@@ -92,10 +92,10 @@ function Counter({ title, logo }) {
             className="Counter__count"
           />
           <div className="Counter__buttons">
-            <button type="button" onClick={handleIncrementWins}>
+            <button type="button" onClick={handleIncrementWins} className="Counter__button">
               +
             </button>
-            <button type="button" onClick={handleDecrementWins}>
+            <button type="button" onClick={handleDecrementWins} className="Counter__button">
               -
             </button>
           </div>
@@ -110,10 +110,10 @@ function Counter({ title, logo }) {
             className="Counter__count"
           />
           <div className="Counter__buttons">
-            <button type="button" onClick={handleIncrementLosses}>
+            <button type="button" onClick={handleIncrementLosses} className="Counter__button">
               +
             </button>
-            <button type="button" onClick={handleDecrementLosses}>
+            <button type="button" onClick={handleDecrementLosses} className="Counter__button">
               -
             </button>
           </div>

@@ -32,9 +32,14 @@
 .Counter__buttons {
   display: flex;
   justify-content: space-around;
-  width: 300%;
+  width: 325%;
   position: relative;
   bottom: 40%;
+}
+
+.Counter__button {
+  width: 12.5%;
+  font-size: 1.5vw;
 }
 
 .Counter__label {
@@ -92,6 +97,10 @@
   }
 
   .Counter__reset {
+    font-size: 3.5vw;
+  }
+
+  .Counter__button {
     font-size: 3.5vw;
   }
 }
