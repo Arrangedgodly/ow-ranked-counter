@@ -29,6 +29,14 @@
   justify-content: space-around;
 }
 
+.Counter__buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 300%;
+  position: relative;
+  bottom: 40%;
+}
+
 .Counter__label {
   display: flex;
   flex-direction: column;
