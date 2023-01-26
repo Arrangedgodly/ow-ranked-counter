@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ow-ranked-counter/static/css/main.69c920ec.css",
-    "main.js": "/ow-ranked-counter/static/js/main.552bc83c.js",
+    "main.css": "/ow-ranked-counter/static/css/main.05b94bfe.css",
+    "main.js": "/ow-ranked-counter/static/js/main.e148b792.js",
     "static/js/787.4787c5cc.chunk.js": "/ow-ranked-counter/static/js/787.4787c5cc.chunk.js",
     "static/media/openqueue.webp": "/ow-ranked-counter/static/media/openqueue.eec7c4289abdb3c0f131.webp",
     "static/media/New_Support_Icon.webp": "/ow-ranked-counter/static/media/New_Support_Icon.a12a05c0e6c01ef8f934.webp",
     "static/media/New_Damage_Icon.webp": "/ow-ranked-counter/static/media/New_Damage_Icon.ce4d668bff7fb9f937b5.webp",
     "static/media/New_Tank_Icon.webp": "/ow-ranked-counter/static/media/New_Tank_Icon.8ebcece34744656d6dc8.webp",
     "index.html": "/ow-ranked-counter/index.html",
-    "main.69c920ec.css.map": "/ow-ranked-counter/static/css/main.69c920ec.css.map",
-    "main.552bc83c.js.map": "/ow-ranked-counter/static/js/main.552bc83c.js.map",
+    "main.05b94bfe.css.map": "/ow-ranked-counter/static/css/main.05b94bfe.css.map",
+    "main.e148b792.js.map": "/ow-ranked-counter/static/js/main.e148b792.js.map",
     "787.4787c5cc.chunk.js.map": "/ow-ranked-counter/static/js/787.4787c5cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69c920ec.css",
-    "static/js/main.552bc83c.js"
+    "static/css/main.05b94bfe.css",
+    "static/js/main.e148b792.js"
   ]
 }
